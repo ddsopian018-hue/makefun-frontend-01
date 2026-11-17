@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Boardroom: a fast, light frontend for make.fun. Live bounties with their pots, entry fees and time left, bounty pages, leaderboards and builder profiles, read from the public API.">
+<title>make.fun bounties — Boardroom</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header id="topbar">
+  <a class="brand" href="#/">make.fun <span>boardroom</span></a>
+  <nav aria-label="Main">
+    <a href="#/">Bounty board</a>
+    <a href="#/bounty/makefun-frontend-01">Featured bounty</a>
+    <a href="#/bounty/makefun-frontend-01/leaderboard">Leaderboard</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer id="foot">
+  <p>Boardroom is a read-only frontend on make.fun's public API. It never asks you to sign in or sign anything. Rewards are USDC on Solana, paid by make.fun.</p>
+</footer>
+</body>
+</html>
